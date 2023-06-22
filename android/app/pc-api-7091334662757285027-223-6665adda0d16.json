@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pc-api-7091334662757285027-223",
+  "private_key_id": "6665adda0d16a2881de54d6abcbbcf17fc481b54",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCIouzC0WQWZ3bD\nTklCX5/A3VoojAWmzYzJGSLcxbS9ORI/e4SHNYBhhNFbo5Qe1ji7Ybok/nUABLWa\nukha5J/djlXyNACNmlF1b2xDwkvwjNs25HkxQDQYf/JLjJbMnDW3xZ4lRnH5gZMB\nJsoveujfUYnrdmNw0Xl3E1UAIoZZxS6liaLm3Msf8tsxa4ydZ+TyzaIqMWlOfNnr\nTGiftF3vZOJp687Cnj3iJt/0Y3LD+PcZ49zpLyD9qvc0MGYXk1a14QN9sBvXMN5V\nXSZW4mjz3G04V6AQWTPBQB/RjanHocS3rcHkS4cqPvR0UOUDdx181T/Nu0rWAXIq\n2Ef/Rx5TAgMBAAECggEANYZlazftll03h/C+ABNHmJzdua6IdDxnX0vKfWOxlsKp\npFa1puXNgeYuwVBGMQJIPRdefSl1Gem+XnuE5p5TBc7BWl0GrnH6YR+h8LVHXFdB\ndLJxy1pUThipCPFtDYBQBsqSVhXPhic9OCFC6PCkEv91INlCwSo+A+h9zsy3hqiG\nQODTINT4Rew3nMs/gElU4OxX+Phs7dLNAkA2LOdt5bZ1ebf4aj10aGqcZDZrwImE\nwlM1l78qtSAl9jq7T/YXfDcAH0+E2+9Q9CXpsnmRfZ2GokhZE516FbqUCHTIiRHk\nhslxVm/YcAevr11ydXJeVaPVhz7ZozU23MqtpkVPEQKBgQC8wd0S+EIdgo1LmERj\nwCT9u83Z5sMXl3cImtz5m+U+IujmFAmc7kzuSyjUA1AiBTYGccQN9nNGhHghm8/a\nRwlN5T0HXb0fV8kU3j/DEik2Pvx6ePwIDSK8+xny7PtSm78DmywgGVyEPY1DF9UF\nI3KF5/WSfPTK39UZG9BXU+DiWwKBgQC5T8j2EHJcsleTUUoOoj3Gse0oDBCY8wY6\nZ21x73YHvvWWSOLchUEe3rpFls4DbRJcUj/bmj+fhMRbx2BNKpQSQ9ZT84T6cvBw\nPC8mDyIy8avYJTAGQjAJCO6bMCDGQZHUQoxXGM9LCknaDgGf9+bMnDiaDLc28HN2\n4jQUcCOFaQKBgAqU66nWlQ5GdVlZjevxp6E52A5xK1q1OQ0YcW7k2HMlTd0oHmnX\nyiRJvl40WVeu5xpxYkZOHKRFZN6td3eLJ/Bf+43gKWwKZdFvrC9pYzoRSeIryiVB\nZ0Mk6I1/z48QACNZnZ2nDlKziKnMOjrxg8gR+uhdbPO6nJ2tu35Jy3+lAoGAcBr7\nSRj0Bm4BmuafdbDizHRRM1vxIoZK60QsqrOh5Ne6PJuFWsDmf2VgrL6pjNsMM3uy\nlAiBmuA35gn8kVJD17TgUVNNzDGCkXNnVo/rMYSQYCdHIVIjOyQDLTD1ctqx/QXx\nXrNsnEnyGY9Fnl/baUbM2yz8HaljQLVhqkeYxZkCgYBfMGpJMdBD2qar8YoEwM+H\noSdoNycvuir+1Mpjzio95l6oYudGbOYwi6i4Dav6hmOGczxA+3kIcju11RIEkZ7L\n36OtEE/upxglMjfMDqYHo+t6y+mg1UxbFBwBM45fP+1ig/BqHrc/d2lPZ150wjGC\nyhws9N3ofWAG1g4WnJHS4w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bimag-app-google-ser-ac@pc-api-7091334662757285027-223.iam.gserviceaccount.com",
+  "client_id": "113055858752009707096",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bimag-app-google-ser-ac%40pc-api-7091334662757285027-223.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

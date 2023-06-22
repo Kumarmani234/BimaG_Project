@@ -1,0 +1,9 @@
+steps:
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
+      
+      ls -l /Users/runner/work/1/dist/apk

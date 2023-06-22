@@ -1,0 +1,60 @@
+name: bima_g
+version: 1.0.0+5
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_screenutil: 5.7.0
+  google_fonts: ^4.0.3
+  flutter_svg: ^2.0.4
+  carousel_slider: ^4.2.1
+  firebase_messaging: ^14.3.0
+  google_sign_in: ^6.0.2
+  #flutter_facebook_auth: ^5.0.8
+  flutter_login_facebook: ^1.7.0
+  #truecaller_sdk: ^0.1.2
+  connectivity_plus: ^3.0.3
+  google_maps_flutter: ^2.2.5
+  location: ^4.4.0
+  flutter_staggered_grid_view: ^0.6.2
+  get_storage: ^2.1.1
+  encrypted_shared_preferences: ^3.0.1
+  permission_handler: ^10.2.0
+  device_info: ^2.0.3
+  flutter_sms: ^2.3.3
+  pull_to_refresh: ^2.0.0
+  flutter: 
+    sdk: flutter
+  step_progress_indicator: ^1.0.2
+  dotted_border: ^2.0.0+3
+  file_picker: ^5.3.0
+
+  path_provider: ^2.0.15
+  url_launcher: ^6.1.10
+  cropperx: ^1.1.1
+  image_picker: ^0.8.7+4
+  package_info_plus: ^4.0.1
+  http: ^0.13.6
+
+
+
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/svgs/
+    - assets/pngs/
+  uses-material-design: true
+

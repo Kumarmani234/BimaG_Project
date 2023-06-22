@@ -1,0 +1,54 @@
+{
+  "status": 1,
+  "message": "Success",
+  "data": {
+    "en": {
+      "appname": "My rajasthan club",
+      "forgot_password": "Forgot password?"
+    },
+    "hi": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "gu": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "rj": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "telugu": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "marathi": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "punjabi": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "kannada": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "malayalam": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "bengali": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "udiya": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    },
+    "tamil": {
+      "appname": "मेरा राजस्थान क्लब",
+      "forgot_password": "पासवर्ड भूल गए?"
+    }
+  }
+}

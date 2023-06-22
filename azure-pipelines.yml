@@ -1,0 +1,66 @@
+---
+    trigger:
+      branches:
+        include:
+          - master
+    stages:
+      - stage: Install
+        jobs:
+          - job: Build
+            pool:
+              vmImage: macOS-latest
+            steps:
+              - task: Hey24sheep.flutter.flutter-install.FlutterInstall@0
+                inputs:
+                  mode: custom
+                  customUrl: https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.7.7-stable.zip
+              - task: JavaToolInstaller@0
+                inputs:
+                  versionSpec: "11"
+                  jdkArchitectureOption: x64
+                  jdkSourceOption: PreInstalled
+              - task: Hey24sheep.flutter.flutter-build.FlutterBuild@0
+                inputs:
+                  target: apk
+                  projectDirectory: .
+                  buildNumber: '4'
+                  buildName: '1.0.1'
+                  mode: 'release'
+              - task: Hey24sheep.flutter.flutter-build.FlutterBuild@0
+                inputs:
+                  target: aab
+                  projectDirectory: .
+                  buildNumber: '4'
+                  buildName: '1.0.1'
+                  mode: 'release'
+              - task: AndroidSigning@3
+                inputs:
+                  apkFiles: '**/*.apk'
+                  apksignerKeystoreFile: 'bimag.jks'
+                  apksignerKeystorePassword: 'InsuranceDigital#203'
+                  apksignerKeystoreAlias: 'bimag'
+                  apksignerKeyPassword: 'InsuranceDigital#203'
+              - task: AndroidSigning@2
+                inputs:
+                  apkFiles: '**/*.aab' 
+                  jarsign: true 
+                  jarsignerKeystoreFile: 'bimag.jks'
+                  jarsignerKeystorePassword: 'InsuranceDigital#203'
+                  jarsignerKeystoreAlias: 'bimag'
+                  jarsignerKeyPassword: 'InsuranceDigital#203'
+                  jarsignerArguments: '-sigalg SHA256withRSA -digestalg SHA-256'
+                  zipalign: true
+              - task: PublishPipelineArtifact@1
+                inputs:
+                  targetPath: '$(Pipeline.Workspace)'
+                  artifact: 'dist'
+                  publishLocation: 'pipeline'
+    variables:
+      BuildDirectory: $(ProjectDirectory)/build/app/outputs/apk/release/app-release.apk
+      BuildMessage: $(Build.SourceVersionMessage)
+      BuildNumber: $(Build.BuildNumber)
+      FlutterChannel: stable
+      FlutterVersion: null
+      ProjectDirectory: $(Build.SourcesDirectory)
+      org.gradle.java.home: /path/to/java11
+    
