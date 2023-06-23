@@ -1,0 +1,15 @@
+workflows:
+  my-workflow:
+    scripts:
+      - name: Authorize access to Firebase Test Lab with a service account
+        script: |
+          set -e # exit on first failed command
+
+          echo ${GCLOUD_KEY_FILE?} > ./bimag-project-e24e23d9232e.json
+          gcloud auth activate-service-account --key-file=bimag-project-e24e23d9232e.json
+          gcloud --quiet config set project bimag-project
+      - name: Interact with Firebase Test Lab
+        script: |
+          set -e # exit on first failed command
+
+          gcloud firebase test --help
